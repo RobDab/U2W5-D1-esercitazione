@@ -14,3 +14,8 @@ function showDate(){
     document.getElementById("month").innerHTML = date.getMonth() + 1
     document.getElementById("year").innerHTML = date.getFullYear()
 }
+
+document.getElementById('timeContainer').innerHTML = date.getHours() + ':' + date.getMinutes()
+
+// document.getElementById('hours').innerHTML =  date.getHours()
+// document.getElementById('minutes').innerHTML =  date.getMinutes()
