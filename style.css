@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: rgba(65, 157, 65, 0.694);
+}
+
+#firstContainer {
+    padding: 1.5em;
+    text-align: center;
+    font-size: 40px;
+}
+
 #btnContainer {
     text-align: center;
     padding: 1.5em 0;
@@ -36,6 +46,7 @@ button {
     display: inline-block;
     width: 30%;
     height: 40px;
+    padding-top: 10px;
     text-align: center;
     border: 1px solid gray;
     border-radius: 10px;
